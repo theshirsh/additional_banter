@@ -1,0 +1,3 @@
+name = Additional Banter
+icon = gui/icons/mod_dlc_banter_icon.png
+author = Datapuncher and WMGreywind and Salaam and Hekateras
