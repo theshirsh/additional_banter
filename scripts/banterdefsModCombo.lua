@@ -26,10 +26,10 @@ local DEREK = 1001
 local RUSH = 1002
 local DRACO = 1003
 	
-local PEDLER = agentdefs.mod_01_pedler.agentID
-local MIST = agentdefs.mod_02_mist.agentID
-local GHUFF = agentdefs.mod_03_ghuff.agentID
-local N_UMI = agentdefs.mod_04_n_umi.agentID
+local PEDLER = "mod_01_pedler"
+local MIST = "mod_02_mist"
+local GHUFF = "mod_03_ghuff"
+local N_UMI = "mod_04_n_umi"
 
 
 	
