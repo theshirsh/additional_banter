@@ -42,12 +42,16 @@ local scriptPath = modApi:getScriptPath()
 	        modApi:addBanter( banter )
 	    end
 	
-	if agentdefs.draco ~= nil then
-		local banterdefsDLC = include( scriptPath.."/banterdefsDLC" )
-		    for i,  banter in pairs( banterdefsDLC ) do
-		        modApi:addBanter( banter )
-		    end
+	local banterdefsDLC = include( scriptPath.."/banterdefsDLC" )
+	for i,  banter in pairs( banterdefsDLC ) do
+		modApi:addBanter( banter )
 	end
+
+	local banterdefsModCombo = include( scriptPath.."/banterdefsModCombo" )
+	for i,  banter in pairs( banterdefsModCombo ) do
+		modApi:addBanter( banter )
+	end
+	
 
 
     end		-- this one is the end of adding banters
