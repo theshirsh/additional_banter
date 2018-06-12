@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------
--- Invisible Inc. Mod. more banter for mod combo and vanilla agents
+-- Invisible Inc. Mod. more banter for vanilla agents
 
 --[[ 
 	Content:		
@@ -65,7 +65,7 @@ local banter =
 		agents = {PEDLER, XU},
 		dialogue = {
 			{PEDLER,"I once met your friend Alex at a conference, you know."},
-			{XU, "That megalomanic smartass? Oh, I wouldn't quite say he's my friend."},
+			{XU, "That megalomanic smart-ass? Oh, I wouldn't quite say he's my friend."},
 			{PEDLER,"Yeah, he said the same about you."},
 		},				
 	},
@@ -328,7 +328,7 @@ local banter =
 	MIST_DEREK_01 = {
 		agents = {MIST, DEREK},
 		dialogue = {				
-			{MIST, "Dont trust that guy."},
+			{MIST, "Don't trust that guy."},
 			{DEREK, "You talking to me?"},
 			{MIST, "Trust me, I've known corporate buffoons better than you."},
 			{DEREK, "Please don't go meddling in my business."},
@@ -421,6 +421,15 @@ local banter =
 		},
 	},
 	
+	mist_decker_01 = {
+		agents = {MIST, DECKER},
+		dialogue = {
+			{MIST, "If you ever need some extra help disappearing, let me know."},
+			{DECKER, "I don't need help from your freaky newfangled psionics or whatever they are."},
+			{MIST, "Right. Only old-fashioned cloaking rigs for you."},
+		},
+	},
+	
 	
 	ghuff_decker_01 = {
 		agents = {GHUFF, DECKER},
@@ -456,6 +465,24 @@ local banter =
 		dialogue = {
 			{MONSTER, "Let me know if you're in the market for some new toys."},
 			{GHUFF, "''Toys.'' You think this is a game. Typical."},
+		},
+	},
+	
+	ghuff_banks_01 = {
+		agents = {GHUFF, BANKS},
+		dialogue = {
+			{GHUFF, "I heard a lot about you, back in the day."},
+			{BANKS, "Yes... it seems like everyone I meet says that."},
+			{GHUFF, "Do you not want to talk about it?"},
+			{BANKS, "Talk about it, sure. Remembering all of it is another matter."},
+		},
+	},
+	
+	ghuff_shale_01 = {
+		agents = {GHUFF, SHALEM},
+		dialogue = {
+			{GHUFF, "Don't ask about my past and I won't ask about yours, okay?"},
+			{SHALEM, "I couldn't agree more."},
 		},
 	},
 		
