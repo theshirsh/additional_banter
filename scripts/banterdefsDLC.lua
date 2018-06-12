@@ -285,7 +285,7 @@ local banter =
 	DRACO_MONSTER_03 = {
 		agents = {DRACO, MONSTER},
 		dialogue = {	
-			{MONSTER, "Bahh! Back in the field again."},
+			{MONSTER, "Bah! Back in the field again."},
 			{DRACO, "Got too comfortable with your \"number-pushing\", is that it?"},			
 			{MONSTER, "At least I wasn't killing anyone."},
 			{DRACO, "How dull."},	
@@ -456,7 +456,7 @@ local banter =
 	},
 	
 	-- Misc DLC agent lines
-	-- by Hekaeras
+	-- by Hekateras
 	
 	
 	OLIVIA_DEREK_04 = {
@@ -681,7 +681,7 @@ local banter =
 	rush_prism_01 = {
 		agents = {RUSH, PRISM},
 		dialogue = {
-			{RUSH, "I might have enjoyoed being a holovid star."},
+			{RUSH, "I might have enjoyed being a holovid star."},
 			{PRISM, "No, you wouldn't have."},
 			{RUSH, "I can act up a storm."},
 			{PRISM, "You think that's what gets you ahead in the business? I didn't think of you as naive."},
@@ -705,14 +705,6 @@ local banter =
 		},
 	},
 	
-	nika_prism_01 = {
-		agents = {NIKA, PRISM},
-		dialogue = {
-			{NIKA, "So, how do you like Invisible?"},
-			{PRISM, "It's... better than anywhere else I've worked."},
-			{NIKA, "Same."},
-		},
-	},
 }
 
 return banter
