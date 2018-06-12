@@ -6,6 +6,7 @@
 		Central + Monster	by Salaam 
 		Central + Monster	by Hekateras
 		Central + Shalem	by WMGreywind
+		Nika + Prism 		by Linenpixel
 		And many others		by Hekateras
 
 ]]
@@ -183,10 +184,22 @@ local banter =
 		},
 	},
 	
+	-- Nika + Prism
+	-- by Linenpixel
+	
+		nika_prism_01 = {
+		agents = {NIKA, PRISM},
+		dialogue = {
+			{NIKA, "So, how do you like Invisible?"},
+			{PRISM, "It's... better than anywhere else I've worked."},
+			{NIKA, "Same."},
+		},
+	},
+	
 	-- Misc agent lines
 	-- By Hekateras, with thanks to Jaffre for ideas on Sharp&Prism dynamic
 	
-	deckar_xu_01 = {
+	decker_xu_01 = {
 		agents = {DECKER, XU},
 		dialogue = {
 			{DECKER, "The hell are you doing?"},
@@ -232,7 +245,7 @@ local banter =
 	monster_prism_02 = {
 		agents = {MONSTER, PRISM},
 		dialogue = {
-			{MONSTER, "I suppose you're what passes for a diversity hire here, yes? An actress, of all things?"},
+			{MONSTER, "I see Gladstone has been getting more creative than usual with her recruitment policies. An actress, of all things?"},
 			{PRISM, "I don't have to prove myself to you."},
 			{MONSTER, "How charmingly youthful of you."},
 		},
@@ -329,7 +342,7 @@ local banter =
 	sharp_prism_05 = {				
 		agents = {SHARP, PRISM},
 		dialogue = {
-			{PRISM, "You think you're so special? I know your type, Alex."},
+			{PRISM, "You think you're so special? I know your type, Sharp."},
 			{SHARP, "I doubt you have ever encountered my like, human."},
 			{PRISM, "Working in music and holovids? Oh, plenty of divas there, trust me."},
 		},
@@ -378,7 +391,7 @@ local banter =
 		dialogue = {
 			{MONSTER, "Well, look at you. You've certainly taken the concept of augmentation to a whole new level."},
 			{SHARP, "You're welcome."},
-			{MONSTER, "For what, exatly?"},
+			{MONSTER, "For what, exactly?"},
 			{SHARP, "Wait and see."},
 		},
 	},	
@@ -486,7 +499,7 @@ local banter =
 	central_xu_02 = {
 		agents = {CENTRAL, XU},
 		dialogue = {
-			{XU, "Ah, finally! This facility must be using the new grid crosslinking prototype for their SecNet uplink. I can't wait to-"},
+			{XU, "Ah, finally! This facility must be using the new grid cross-linking prototype for their SecNet uplink. I can't wait to-"},
 			{CENTRAL, "Tony, focus."},
 			{XU, "-Access the terminals, disable their devices as needed, and do my job. And absolutely nothing else."},
 		},
@@ -504,7 +517,7 @@ local banter =
 	central_xu_04 = {
 		agents = {CENTRAL, XU},
 		dialogue = {
-			{CENTRAL, "Are we prepared for this facility's Infosec defenses?"},
+			{CENTRAL, "Are we prepared for this facility's Infosec defences?"},
 			{XU, "I've reviewed the telemetry and updated our protocols to account for what we encountered last time. No recent flags filed on the SubNet. We're good to go."},
 			{CENTRAL, "And if we encounter novel threats in the mainframe?"},
 			{XU, "I am ready to improvise."},
@@ -512,6 +525,7 @@ local banter =
 		},
 	},
 			
+	
 			
 		
 	
