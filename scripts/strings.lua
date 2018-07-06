@@ -8,7 +8,7 @@ local DLC_STRINGS =
 	OPTIONS =
 	{
 		BANTER = "Additional banter.",
-		BANTER_TIP = "<c:FF8411>Added several dialogues for:</c>\nCentral & M0nster\nDraco(DLC)\nRush(DLC)\nOlivia & Derek(DLC)",  
+		BANTER_TIP = "<c:FF8411>Adds mission start banters for multiple basegame, DLC and mod agents</c>",  
 				
 	},	
 

@@ -245,7 +245,7 @@ local banter =
 	monster_prism_02 = {
 		agents = {MONSTER, PRISM},
 		dialogue = {
-			{MONSTER, "I see Gladstone has been getting more creative than usual with her recruitment policies. An actress, of all things?"},
+			{MONSTER, "I suppose you're what passes for a diversity hire here, yes? An actress, of all things?"},
 			{PRISM, "I don't have to prove myself to you."},
 			{MONSTER, "How charmingly youthful of you."},
 		},
