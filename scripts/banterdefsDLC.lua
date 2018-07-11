@@ -811,7 +811,8 @@ rush_nika2 =
 	dialogue = {
 		{NIKA, "You should never go in without a plan."},
 		{RUSH, "Hey, I've made tons of plans in my day."},
-		{NIKA, "There were perfectly good reasons why so many of them involved explosions."},
+		{NIKA, "..."},
+		{RUSH, "There were perfectly good reasons why so many of them involved explosions."},
 	},},
 	
 --by Linenpixel--
