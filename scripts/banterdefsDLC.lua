@@ -5,9 +5,9 @@
 	Content:	
 
 		Draco + Others		by Datapuncher
-		Rush + Others		by Linenpixel
 		Multiple others		by Linenpixel
 		Multiple others		by Hekateras	
+		Multiple others		by Kalir
 		
 	
 
@@ -32,7 +32,7 @@ local DRACO = 1003
 local banter =
 {
 -- Draco + Decker
--- by Datapuncher 
+--by Datapuncher--
 
 	DRACO_DECKER_01 = {
 		agents = {DRACO, DECKER},
@@ -43,7 +43,7 @@ local banter =
 			{DRACO, "I don’t care. It’s bestseller with or without you."},
 		},
 	},
-	
+--by Datapuncher--	
 	DRACO_DECKER_02 = {
 		agents = {DRACO, DECKER},
 		dialogue = {
@@ -54,7 +54,7 @@ local banter =
 		},
 					
 	},
-
+--by Datapuncher--
 	DRACO_DECKER_03 = {
 		agents = {DRACO, DECKER},
 		dialogue = {
@@ -64,7 +64,7 @@ local banter =
 			{DRACO, "Says the man dressed as Poirot."},
 		},				
 	},
-
+--by Datapuncher--
 	DRACO_DECKER_04 = {
 		agents = {DRACO, DECKER},
 		dialogue = {
@@ -76,7 +76,7 @@ local banter =
 	},
 
 -- Draco + Rush
--- by Datapuncher 
+--by Datapuncher--
 
 	DRACO_RUSH_01 = {
 		agents = {DRACO, RUSH},
@@ -87,7 +87,7 @@ local banter =
 			{RUSH, "That's not even an excuse."},
 		},
 	},
-
+--by Datapuncher--
 	DRACO_RUSH_02 = {
 		agents = {DRACO, RUSH},
 		dialogue = {
@@ -98,7 +98,7 @@ local banter =
 			{DRACO, "Fire away."},
 		},			
 	},
-
+--by Datapuncher--
 	DRACO_RUSH_03 = {
 		agents = {DRACO, RUSH},
 		dialogue = {
@@ -106,7 +106,7 @@ local banter =
 			{DRACO, "Then how are we going to cover the costs of our addictions?"},				
 		},
 	},
-
+--by Datapuncher--
 	DRACO_RUSH_04 = {
 		agents = {DRACO, RUSH},
 		dialogue = {
@@ -118,7 +118,7 @@ local banter =
 	},
 
 -- Draco + Shalem
--- by Datapuncher 
+--by Datapuncher--
 
 	DRACO_SHALEM_01 = {
 		agents = {DRACO, SHALEM},
@@ -129,7 +129,7 @@ local banter =
 			{SHALEM, "Aside from everything but killing, yes."},
 		},
 	},
-		
+--by Datapuncher--		
 	DRACO_SHALEM_02 = {
 		agents = {DRACO, SHALEM},
 		dialogue = {				
@@ -138,7 +138,7 @@ local banter =
 			{SHALEM, "A special kind of annoyance."},
 		},
 	},
-
+--by Datapuncher--
 	DRACO_SHALEM_03 = {
 		agents = {DRACO, SHALEM},
 		dialogue = {
@@ -148,7 +148,7 @@ local banter =
 			{DRACO, "Carry on like that and I may prove it."},
 		},
 	},
-
+--by Datapuncher--
 	DRACO_SHALEM_04 = {
 		agents = {DRACO, SHALEM},
 		dialogue = {
@@ -160,7 +160,7 @@ local banter =
 			{SHALEM, "I don't care as long as you get the job done."},
 		},
 	},
-
+--by Datapuncher--
 	DRACO_SHALEM_05 = {
 		agents = {DRACO, SHALEM},
 		dialogue = {				
@@ -171,7 +171,7 @@ local banter =
 	},
 
 -- Draco + Nika
--- by Datapuncher
+--by Datapuncher--
 
 	DRACO_NIKA_01 = {
 		agents = {DRACO, NIKA},
@@ -182,7 +182,7 @@ local banter =
 			{DRACO, "I prefer not to get too messy."},
 		},
 	},
-
+--by Datapuncher--
 	DRACO_NIKA_02 = {
 		agents = {DRACO, NIKA},
 		dialogue = {	
@@ -191,7 +191,7 @@ local banter =
 			{DRACO, "So is mine. I'm going for a personal record."},
 		},					
 	},
-
+--by Datapuncher--
 	DRACO_NIKA_03 = {
 		agents = {DRACO, NIKA},
 		dialogue = {	
@@ -201,7 +201,7 @@ local banter =
 			{NIKA, "I do know, and I know better. That is why I questioned it."},
 		},		
 	},
-		
+--by Datapuncher--		
 	DRACO_NIKA_04 = {
 		agents = {DRACO, NIKA},
 		dialogue = {	
@@ -213,7 +213,7 @@ local banter =
 	},
 
 -- Draco + Banks
--- by Datapuncher
+--by Datapuncher--
 
 	DRACO_BANKS_01 = {
 		agents = {DRACO, BANKS},
@@ -225,7 +225,7 @@ local banter =
 			{DRACO, "You just had to ruin it, didn't you."},
 		},		
 	},	
-
+--by Datapuncher--
 	DRACO_BANKS_02 = {
 		agents = {DRACO, BANKS},
 		dialogue = {	
@@ -237,7 +237,7 @@ local banter =
 			{BANKS, "You know how to cheer someone up."},
 		},	
 	},	
-
+--by Datapuncher--
 	DRACO_BANKS_03 = {
 		agents = {DRACO, BANKS},
 		dialogue = {	
@@ -248,7 +248,7 @@ local banter =
 			{BANKS, "Stay away from my head."},
 		},					
 	},	
-
+--by Datapuncher--
 	DRACO_BANKS_04 = {
 		agents = {DRACO, BANKS},
 		dialogue = {	
@@ -260,7 +260,7 @@ local banter =
 	},		
 
 -- Draco + Monster
--- by Datapuncher
+--by Datapuncher--
 	
 	DRACO_MONSTER_01 = {
 		agents = {DRACO, MONSTER},
@@ -271,7 +271,7 @@ local banter =
 			{DRACO, "Your sarcasm doesn't work on me."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_MONSTER_02 = {
 		agents = {DRACO, MONSTER},
 		dialogue = {				
@@ -281,7 +281,7 @@ local banter =
 			{MONSTER, "Hopefully more than less."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_MONSTER_03 = {
 		agents = {DRACO, MONSTER},
 		dialogue = {	
@@ -292,7 +292,7 @@ local banter =
 			{MONSTER, "This speaks volumes of you, Draco."},
 		},					
 	},	
-
+--by Datapuncher--
 	DRACO_MONSTER_04 = {
 		agents = {DRACO, MONSTER},
 		dialogue = {	
@@ -302,7 +302,7 @@ local banter =
 			{MONSTER, "How convincing. Lay low, the agency's loss is already more than enough."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_MONSTER_05 = {
 		agents = {DRACO, MONSTER},
 		dialogue = {	
@@ -316,7 +316,7 @@ local banter =
 		},								
 	},	
 -- Draco + Xu
--- By Hekateras, with help from Datapuncher
+--by Hekateras--, with help from Datapuncher
 	
 		DRACO_XU_01 = {
 		agents = {DRACO, XU},
@@ -327,7 +327,7 @@ local banter =
 			{DRACO, "Good for her. I think I've heard enough."},	
 		},
 	},	
-	
+--by Hekateras--	
 		DRACO_XU_02 = {
 		agents = {DRACO, XU},
 		dialogue = {	
@@ -339,7 +339,7 @@ local banter =
 			{DRACO, "I'm no longer comfortable with this conversation."},
 		},
 	},	
-	
+--by Hekateras--	
 		DRACO_XU_03 = {
 		agents = {DRACO, XU},
 		dialogue = {	
@@ -350,7 +350,7 @@ local banter =
 			{XU, "That's exactly what it was."},
 		},
 	},	
-	
+--by Hekateras--	
 		DRACO_XU_04 = {
 		agents = {DRACO, XU},
 		dialogue = {	
@@ -365,7 +365,7 @@ local banter =
 	
 	
 -- Draco + Derek
--- by Datapuncher -- same as previous block, just agentID changed 
+--by Datapuncher-- same as previous block, just agentID changed 
 
 	DRACO_DEREK_01 = {
 		agents = {DRACO, DEREK},
@@ -376,7 +376,7 @@ local banter =
 			{DRACO, "Your sarcasm doesn't work on me."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_DEREK_02 = {
 		agents = {DRACO, DEREK},
 		dialogue = {				
@@ -386,7 +386,7 @@ local banter =
 			{DEREK, "Hopefully more than less."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_DEREK_03 = {
 		agents = {DRACO, DEREK},
 		dialogue = {	
@@ -397,7 +397,7 @@ local banter =
 			{DEREK, "This speaks volumes of you, Draco."},
 		},					
 	},	
-
+--by Datapuncher--
 	DRACO_DEREK_04 = {
 		agents = {DRACO, DEREK},
 		dialogue = {	
@@ -407,7 +407,7 @@ local banter =
 			{DEREK, "How convincing. Lay low, the agency's loss is already more than enough."},	
 		},
 	},	
-
+--by Datapuncher--
 	DRACO_DEREK_05 = {
 		agents = {DRACO, DEREK},
 		dialogue = {	
@@ -421,7 +421,7 @@ local banter =
 	},	
 
 -- Olivia + Derek
--- by Hekateras
+--by Hekateras--
 
 	OLIVIA_DEREK_01 = {
 		agents = {OLIVIA, DEREK},
@@ -433,7 +433,7 @@ local banter =
 			{OLIVIA, "You're about to become a man who's run out of time if you don't get your head in the game. Quiet now. I think I hear a guard in the next room."},	
 		},					
 	},
-		
+--by Hekateras--		
 	OLIVIA_DEREK_02 = {
 		agents = {OLIVIA, DEREK},
 		dialogue = {	
@@ -444,7 +444,7 @@ local banter =
 			{DEREK, "Ruthless, but fair."},	
 		},							
 	},
-		
+--by Hekateras--		
 	OLIVIA_DEREK_03 = {
 		agents = {OLIVIA, DEREK},
 		dialogue = {	
@@ -456,7 +456,7 @@ local banter =
 	},
 	
 	-- Misc DLC agent lines
-	-- by Hekateras
+	--by Hekateras--
 	
 	
 	OLIVIA_DEREK_04 = {
@@ -469,7 +469,7 @@ local banter =
 		},
 	},
 	
-	
+--by Hekateras--	
 	olivia_derek_05 = {
 		agents = {OLIVIA, DEREK},
 		dialogue = {
@@ -479,7 +479,7 @@ local banter =
 			{OLIVIA, "That's enough of that. We have a job to do."},
 		},
 	},
-	
+--by Hekateras--	
 	olivia_rush_01 = {
 		agents = {OLIVIA, RUSH},
 		dialogue = {
@@ -489,7 +489,7 @@ local banter =
 			{OLIVIA, "I should hope so."},
 		},
 	},
-
+--by Hekateras--
 	rush_derek_01 = {	
 		agents = {RUSH, DEREK},
 		dialogue = {
@@ -499,7 +499,7 @@ local banter =
 			{RUSH, "You need to stop thinking in binaries."},
 		},
 	},
-	
+--by Hekateras--	
 	rush_derek_02 = {
 		agents = {RUSH, DEREK},
 		dialogue = {
@@ -509,7 +509,7 @@ local banter =
 			{RUSH, "Yeah. Sometimes they yell it after me as I leave them in the dust."},
 		},
 	},
-	
+--by Hekateras--	
 	rush_derek_03 = {
 		agents = {RUSH, DEREK},
 		dialogue = {
@@ -519,10 +519,20 @@ local banter =
 			{RUSH, "Oh yeah, sure. Toss in your application while we clean them out."},
 		},
 	},
-	
+
+--by Hekateras--
+olivia_draco_01 = {
+		agents = {OLIVIA, DRACO},
+		dialogue = {
+		{DRACO, "You can't let your whole life pass you by, Olivia!"},
+		{OLIVIA, "For the last time, no. I'll read when I'm dead."},
+		{DRACO, "I have been there, believe me. It didn't work out."},
+		{OLIVIA, "Keep yammering about your book and you'll get us caught. This may surprise you, but detention facilities do not come with library cards."},
+		{DRACO, "You just had to make it dark, didn't you?"},
+	},},
 	
 	-- PEIA team three person banters
-	-- by Hekateras
+	--by Hekateras--
 	
 	rush_derek_draco_01 = {
 		agents = {RUSH, DEREK, DRACO},
@@ -535,7 +545,7 @@ local banter =
 		},
 	},
 	
-		
+--by Hekateras--		
 	rush_derek_draco_02 = {
 		agents = {RUSH, DEREK, DRACO},
 		dialogue = {
@@ -545,7 +555,7 @@ local banter =
 			{DRACO, "We'll just see about that."},
 		},
 	},
-		
+--by Hekateras--		
 	rush_derek_draco_03 = {	
 		agents = {RUSH, DEREK, DRACO},
 		dialogue = {
@@ -555,7 +565,20 @@ local banter =
 			{DEREK, "And I suppose I have my answer..."},
 		},
 	},
-			
+	
+--by Hekateras--		
+	rush_derek_draco_04 = {	
+		agents = {RUSH, DEREK, DRACO},
+		dialogue = {
+			{DRACO, "Derek? If I don't make it, promise me you'll read my book."},
+			{RUSH, "Don't do it! It's a ploy, he'll just fake his death and pretend it counts and hold you to it!"},
+			{DEREK, "I have a strong suspicion that if you don't make it, my reading list will be the least of my problems."},
+			{DRACO, "Don't be so pessimistic."},
+			{DEREK, "...I don't even know what to say to that."},
+		},},
+
+		
+--by Hekateras--			
 	rush_olivia_draco_01 = {
 		agents = {RUSH, OLIVIA, DRACO},
 		dialogue = {
@@ -565,22 +588,54 @@ local banter =
 			{OLIVIA, "Don't push your luck, Draco. You still have some dues to pay."},
 		},
 	},
-			
+	
+--by Hekateras--
+	rush_olivia_derek = {
+		agents = {RUSH, OLIVIA, DEREK},
+		dialogue = {
+			{RUSH, "Ugh, finally! That briefing felt like it took forever. I thought the point of briefings is that they're supposed to be *brief*."},
+			{DEREK, "Yeah, about that..."},
+			{RUSH, "...She's right behind me, isn't she?"},
+			{OLIVIA, "I'l try to tailor it to your attention span next time. Perhaps in the millisecond range?"},
+		},},
+		
+--by Hekateras--
+	rush_olivia_derek = {
+		agents = {RUSH, OLIVIA, DEREK},
+		dialogue = {
+			{DEREK, "Sometimes I miss it when the agency was smaller. You know what I mean?"},
+			{RUSH, "Aw yeah, into the breach! There's a lot of people here just waiting to be crushed."},
+			{OLIVIA, "Yes, Derek, I believe I do."},
+		},},
+	
+--by Hekateras--
+	rush_olivia_draco_02 = {
+		agents = {RUSH, OLIVIA, DRACO},
+		dialogue = {
+			{OLIVIA, "You're the best I have. Do not let me down."},
+			{RUSH, "You know I won't."},
+			{DRACO, "She obviously meant me."},
+			{OLIVIA, "It was a plural 'you'. Emphasis on 'was'. The literary-minded among you may note that it's the past tense."},
+			{RUSH, "Okay, *now* she means you."},
+		},},
+		
+
+		
 	-- end of 3 person banters
 
 	-- DLC + non DLC agent banters
-	-- by Hekateras
+	--by Hekateras--
 	
 	derek_xu_01 = {
 		agents = {DEREK, XU},
 		dialogue = {
-			{XU, "The facility firewall - the multi-layered design brings to mind Emiroff's information theory on security convergence, don't you agree?"},
+			{XU, "The facility firewall - the socketed design brings to mind Emiroff's information theory on multithread convergence, don't you agree?"},
 			{DEREK, "Beats me. A fancy school wasn't really in the books for me."},
 			{XU, "Ah. I didn't consider-"},
 			{DEREK, "No, friend, you really didn't."},
 		},
 	},
-	
+--by Hekateras--	
 	derek_internationale_01 = {
 		agents = {DEREK, INTERNATIONALE},
 		dialogue = {
@@ -591,8 +646,41 @@ local banter =
 		},
 	},
 	
+--by Hekateras-
+		rush_xu_01 = {
+			agents = {RUSH, XU},
+			dialogue = {
+				{RUSH, "This is just like the tortoise and the hare, except I'm the one stuck with the tortoise."},
+				{XU, "You're aware the tortoise wins that particular race, yes?"},
+				{RUSH, "Does it? Now that's just stupid."},
+				{XU, "Assuming you mean the Aesop and not the algorithm, in which case-"},
+				{RUSH, "I'm gonna cut you off right there."},
+			},
+		},
+		
+--by Hekateras--
+	rush_xu_02 = {
+		agents = {RUSH, XU},
+		dialogue = {
+			{XU, "...Can I ask you a question?"},
+			{RUSH, "Yes, I do work out every day; no, it's not my natural hair color; and thanks, but you're not my type."},
+			{XU, "Wouldn't running shoes be more convenient?"},
+			{RUSH, "There is such a little thing called style, you know. I don't imagine you two have met."},
+			{XU, "Now that was just uncalled for."},
+			},},
+			
+--by Hekateras--
+	rush_xu_03 = {
+		agents = {RUSH, XU},
+		dialogue = {
+			{XU, "So you joined up at the beginning of the war, yes?"},
+			{RUSH, "It was either fight back or turn into mincemeat for the Corps. But you never had to make that choice, did you?"},
+			{XU, "I suppose I didn't. Sankaku wasn't particularly interested in pulling us to the front lines when we were more useful doing research."},
+			{RUSH, "And how did that turn out for you?"},
+		},},
+	
 	-- Rush + non DLC agent banters
-	-- by Linenpixel
+	--by Linenpixel--
 	
 	rush_internationale_01 = {
 		agents = {RUSH, INTERNATIONALE},
@@ -603,7 +691,7 @@ local banter =
 			{RUSH, "Chill out."},
 		},
 	},
-
+--by Linenpixel--
 	rush_decker_01 = {
 		agents = {RUSH, DECKER},
 		dialogue = {
@@ -612,7 +700,7 @@ local banter =
 			{RUSH, "Did you just call me old?"},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_decker_02 = {
 		agents = {RUSH, DECKER},
 		dialogue = {
@@ -620,7 +708,7 @@ local banter =
 			{DECKER, "Sounds like a great plan."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_shalem_01 = {
 		agents = {RUSH, SHALEM},
 		dialogue = {
@@ -630,7 +718,7 @@ local banter =
 			{SHALEM, "I'm sure it was. But I'm here to do a job, not chitchat."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_banks_01 = {
 		agents = {RUSH, BANKS},
 		dialogue = {
@@ -639,7 +727,7 @@ local banter =
 			{BANKS, "One of us has to be."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_xu_01 = {
 		agents = {RUSH, XU},
 		dialogue = {
@@ -649,7 +737,7 @@ local banter =
 			{XU, "Was yours?"},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_xu_02 = {
 		agents = {RUSH, XU},
 		dialogue = {
@@ -658,7 +746,7 @@ local banter =
 			{XU, "Ha, that would be a waste of my talents."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_nika_01 = {
 		agents = {RUSH, NIKA},
 		dialogue = {
@@ -667,7 +755,7 @@ local banter =
 			{NIKA, "Because without someone who knows how to use you, you might do more damage to your own side."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_sharp_01 = {
 		agents = {RUSH, SHARP},
 		dialogue = {
@@ -677,7 +765,7 @@ local banter =
 			{RUSH, "Even if I could, I'd pass."},
 		},
 	},
-	
+--by Linenpixel--	
 	rush_prism_01 = {
 		agents = {RUSH, PRISM},
 		dialogue = {
@@ -687,7 +775,7 @@ local banter =
 			{PRISM, "You think that's what gets you ahead in the business? I didn't think of you as naive."},
 		},
 	},
-	
+--by Linenpixel--	
 	derek_banks_01 = {
 		agents = {DEREK, BANKS},
 		dialogue = {
@@ -696,7 +784,7 @@ local banter =
 			{DEREK, "You didn't miss much."},
 		},
 	},
-	
+--by Linenpixel--	
 	derek_xu_02 = {
 		agents = {DEREK, XU},
 		dialogue = {
@@ -705,6 +793,217 @@ local banter =
 		},
 	},
 	
+--by Linenpixel--
+rush_nika1 =
+{
+	agents = {RUSH, NIKA},
+	dialogue = {
+		{RUSH, "Don't you love the feel of adrenaline? I know you understand."},
+		{NIKA, "Yes, but practice is more important."},
+		{RUSH, "Right... officially..."},
+	},},
+	
+	
+--by Linenpixel--
+rush_nika2 =
+{
+	agents = {RUSH, NIKA},
+	dialogue = {
+		{NIKA, "You should never go in without a plan."},
+		{RUSH, "Hey, I've made tons of plans in my day."},
+		{NIKA, "There were perfectly good reasons why so many of them involved explosions."},
+	},},
+	
+--by Linenpixel--
+rush_prism1 =
+{
+	agents = {RUSH, PRISM},
+	dialogue = {
+		{RUSH, "We ex-celebrities should stick together."},
+		{PRISM, "From what I hear, you can't stick to anything, including a plan."},
+		{RUSH, "Now, would I really be here if that were true?"},
+		{PRISM, "I'm still not entirely sure how you're here at all, so-"},
+		{RUSH, "I'm bored. Let's get moving."},
+	},},
+	
+--by Linenpixel--
+-- edited/shortened by Hekateras--
+rush_prism2 = 
+{
+	agents = {RUSH, PRISM},
+	dialogue = {
+		{RUSH, "It is refreshing to meet another natural talent."},
+		{PRISM, "'Natural talent'? What does that even mean nowadays?"},
+		{RUSH, "It means a lot. Anyone can use the tech, but it takes someone special to make it look great."},
+		{PRISM, "I'll take it."},
+	}, },
+
+	
+--by Linenpixel--
+rush_shalem = 
+{
+	agents = {RUSH, SHALEM},
+	dialogue = {
+		{RUSH, "You're just another cold-blooded killing machine. Like Sharp."},
+		{SHALEM, "I'm not rising to your bait."},
+		{RUSH, "So what makes you different from him?"},
+		{SHALEM, "That's for me to know."},
+	},},
+
+--by Linenpixel--
+rush_sharp1 =
+{
+	agents = {RUSH, SHARP},
+	dialogue = {
+		{RUSH, "Aesthetically speaking, you aren't that great. I've seen more attractive delivery drones."},
+		{SHARP, "How. Dare. You."},
+	}, },
+
+--by Linenpixel--
+rush_sharp2 =
+{
+	agents = {RUSH, SHARP},
+	dialogue = {
+		{RUSH, "'Sharp.' You're metal. How creative."},
+		{SHARP, "'Rush.' You're fast. How creative."},
+		{RUSH, "Ugh, fine. Though mine was a branding decision involving no less than five different highly-laced Augment Games execs."},
+		{SHARP, "See, that's why I went the self-employed route."},
+	}, },
+	
+--by Linenpixel--
+Derek_Prism1 =	
+{
+	agents = {DEREK, PRISM},
+	dialogue = {
+		{DEREK, "If we get into trouble, I don't think we can act our way out of it."},
+		{PRISM, "You might be surprised."},
+		{DEREK, "I'd rather get through this without surprises."},
+		{PRISM, "So would I. That's why I came prepared."},
+	}, },
+
+--by Linenpixel--
+Derek_Prism2 = 
+{
+	agents = {DEREK, XU},
+	dialogue = {
+		{XU, "So, you're self-taught?"},
+		{DEREK, "Yes, miraculous as that may seem to you."},
+		{XU, "Oh, I meant no offense. I'm impressed, is all."},
+		{DEREK, "Yet you still sound patronizing."},
+	},},
+	
+--by Linenpixel--
+DRACO_PRISM_01 = 
+{
+agents = {DRACO, PRISM},
+dialogue = {
+    {DRACO, "You know, I refused to sell vid rights to The Data Vampires, no matter how much they offered."},
+    {PRISM, "Because you couldn't bear to surrender creative control of your masterpiece?"},
+    {DRACO, "Ah, you understand."},
+},
+},
+
+--by Linenpixel--
+DRACO_PRISM_02 = 
+{
+agents = {DRACO, PRISM},
+dialogue = {
+    {DRACO, "I've been watching some of your old vids."},
+    {PRISM, "Oh, great."},
+    {DRACO, "And I think you might just have been capable of embodying the spirit of Abby."},
+    {PRISM, "Of course I could have. A vampire flick would have been easy money for me."},
+    {DRACO, "Do not speak so lightly of the darkness."},
+},
+},
+
+--by Linenpixel--
+DRACO_PRISM_03 = 
+{
+agents = {DRACO, PRISM},
+dialogue = {
+    {PRISM, "I never thought I'd say this, but I like your whole fake vampire thing."},
+    {DRACO, "You fail to understand that I am truly a creature of darkness."},
+    {PRISM, "See, like that right there. It's refreshing."},
+    {DRACO, "Refreshing?"},
+	{PRISM, "You have no idea how many fake people I've worked with. But you? It's all right out there in the open."},
+},
+},
+
+--by Linenpixel--
+DRACO_PRISM_04 = 
+{
+agents = {DRACO, PRISM},
+dialogue = {
+    {DRACO, "..."},
+    {PRISM, "..."},
+    {DRACO, "It has begun."},
+    {PRISM, "Perfect dramatic timing. Just the right amount of pause."},
+    {DRACO, "I don't understand you."},
+    {PRISM, "You're an actor, even if you won't admit it."},
+},
+},
+
+--by Linenpixel--
+DRACO_PRISM_INTERNATIONALE_01 = 
+{
+agents = {DRACO, PRISM, INTERNATIONALE},
+dialogue = {
+    {DRACO, "We enter in darkness, unseen, unknown, incomprehensible to the innocent…"},
+    {INTERNATIONALE, "Would you take this seriously? There are real lives at stake, not just characters in books."},
+    {DRACO, "I am serious. Fear radiates outward from us, grasping every human heart in this place..."},
+    {PRISM, "...but our senses are those of birds of prey, and like them, we cannot be distracted or swerved from our singular goal."},
+    {DRACO, "Was that original? I'm impressed."},
+    {PRISM, "See, that's how you handle him. He's got one script and it's fairly easy to follow."},
+},
+},
+
+--by Hekateras--
+draco_derek_x = {
+	agents = {DRACO, DEREK},
+	dialogue = {
+		{DRACO, "The night breathes inside of us. Let us leave its blessings upon this place, together."},
+		{DEREK, "Stay back. I've got garlic. Digital garlic."},
+		{DRACO, "Perhaps you are not yet ready."},
+		},},
+
+--by Kalir--
+rush_decker_1 = {
+	agents = {RUSH, DECKER},
+	dialogue = {
+		{RUSH, "Come on, I thought you said you were fast! Let's GO already!"},
+		{DECKER, "Last I checked, this was an infiltration, not a race."}, 
+		}, },
+		
+--by Kalir--	
+rush_decker_2 = {
+	agents = {RUSH, DECKER},
+	dialogue = {
+		{DECKER, "You're gonna burn yourself out like all the athletes do someday."},
+		{RUSH, "A: I know what I'm doing. B: You don't have room to judge, when was the last time you were sober?"},
+		{DECKER, "I dunno, let me check my calendar."},
+		}, },
+
+--by Kalir--
+--edited by Hekateras--
+rush_decker_3 = {
+	agents = {RUSH, DECKER},
+	dialogue = {
+		{DECKER, "First one to trip a camera buys drinks when this is all over."},
+		{RUSH, "It's so cute how you still care about getting seen."},
+		}, },
+
+--by Kalir--
+rush_decker_4 = {
+    agents = {RUSH, DECKER},
+    dialogue = {
+    {RUSH, "See, I don't get in fights."},
+    {DECKER, "What are you talking about? You blindside guards all the time."},
+    {RUSH, "That's not a fight, that's just a high-velocity haymaker."},
+    {DECKER, "Heh."},
+},
+},
+
+		
 }
 
 return banter
