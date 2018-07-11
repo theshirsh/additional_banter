@@ -89,7 +89,7 @@ mission_util.doAgentBanter = function(script,sim,cross_script,odds,returnIfFaile
 			        }				
 					table.insert(speechQue,speech)
 					
-					-- thing to not repeat? ------------------------------------
+					-- code to prevent banters from repeating during campaign ------------------------------------
 					if agency.crossIds == nil then
 						agency.crossIds  = {}
 					end
