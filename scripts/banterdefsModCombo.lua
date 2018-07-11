@@ -1,10 +1,12 @@
 ---------------------------------------------------------------------
--- Invisible Inc. Mod. more banter for vanilla agents
+-- Invisible Inc. Mod. more banter for agents added by mods
 
 --[[ 
 	Content:		
-		Pedler, Mist + vanilla agents		by Caischcer, Edited by Hekateras
+		Pedler, Mist + vanilla agents		by Caischcer
 		N-Umi, Ghuff and Mist + vanilla		by Linenpixel
+		Sombra								by WMGreywind
+		Various edits						by Hekateras
 
 ]]
 
@@ -31,13 +33,16 @@ local MIST = "mod_02_mist"
 local GHUFF = "mod_03_ghuff"
 local N_UMI = "mod_04_n_umi"
 
-
+local DOSAN = "dosan_01"	--unused
+local CONWAY = "gunpoint_conway" -- unused
+local SOMBRA = "SOMBRA_001"	
+local WIDOWMAKER = "WIDOWMAKER_001"	--unused
 	
 local banter =
 {
 -- Pedler:
 	-- Pedler + Decker
-
+--by Caischcer--
 	PEDLER_DECKER_01 = {
 		agents = {PEDLER,DECKER},
 		dialogue = {
@@ -47,7 +52,7 @@ local banter =
 			{DECKER,"And I see you haven't lost your rust!"},
 		},
 	},
-
+--by Caischcer--
 	--Pedler + Tony
 	PEDLER_XU_01 = {
 		agents = {PEDLER, XU},
@@ -58,8 +63,8 @@ local banter =
 			{PEDLER,"That is not funny."},
 		},					
 	},
-
--- Edited this one to be less OOC in regards to both Xu and what the word "brute" means
+--by Caischcer--
+-- Edited this one to be less OOC in regards to both Xu and what the word "brute" means -Hek
 	
 		PEDLER_XU_02 = {
 		agents = {PEDLER, XU},
@@ -69,7 +74,7 @@ local banter =
 			{PEDLER,"Yeah, he said the same about you."},
 		},				
 	},
-	
+--by Caischcer--	
 			
 	--Pedler + Nika	
 	PEDLER_NIKA_01 = {
@@ -83,7 +88,7 @@ local banter =
 	},
 
 	--Pedler + Sharp
-
+--by Caischcer--
 	PEDLER_SHARP_01 = {
 		agents = {PEDLER, SHARP},
 		dialogue = {
@@ -96,7 +101,7 @@ local banter =
 		
 	-- PEDLER speaks about beaches with everyone (meta easter egg or somthn)
 	-- "We will fight them on the beaches!", as that quote made more questions that answers in community 
-
+--by Caischcer--
 	PEDLER_DECKER_BEACHES_01 = {
 		agents = {PEDLER,DECKER},
 		dialogue = {
@@ -106,7 +111,7 @@ local banter =
 			{DECKER,"I'd drink to that." },
 		},
 	},
-
+--by Caischcer--
 	PEDLER_INT_BEACHES_01 = {
 		agents = {PEDLER,INTERNATIONALE},
 		dialogue = {
@@ -116,7 +121,7 @@ local banter =
 			{INTERNATIONALE,"Too late, I feel homesick now." },
 		},		
 	},
-
+--by Caischcer--
 	PEDLER_SHALEM_BEACHES_01 = {
 		agents = {PEDLER,SHALEM},
 		dialogue = {
@@ -125,7 +130,7 @@ local banter =
 			{PEDLER,"... \nNow that was unnecessarily rude." },			
 		},		
 	},
-
+--by Caischcer--
 	PEDLER_BANKS_BEACHES_01 = {
 		agents = {PEDLER,BANKS},
 		dialogue = {
@@ -135,7 +140,7 @@ local banter =
 			{BANKS,"No? Still, I expect it to be a rather jolly swimsuit." },
 		},	
 	},
-
+--by Caischcer--
 	PEDLER_TONY_BEACHES_01 = {
 		agents = {PEDLER,XU},
 		dialogue = {
@@ -145,7 +150,7 @@ local banter =
 			{XU,"I see. Isn't saltwater unhealthy for you, by the way?"},
 		},	
 	},
-
+--by Caischcer--
 	PEDLER_NIKA_BEACHES_01 = {
 		agents = {PEDLER,NIKA},
 		dialogue = {
@@ -155,7 +160,7 @@ local banter =
 			{NIKA,"..." },
 		},
 	},
-
+--by Caischcer--
 	PEDLER_SHARP_BEACHES_01 = {
 		agents = {PEDLER,SHARP},
 		dialogue = {
@@ -165,7 +170,7 @@ local banter =
 			{SHARP,"You remember it wrong, that's what I'm trying to say." },
 		},	
 	},
-
+--by Caischcer--
 	PEDLER_PRISM_BEACHES_01 = {
 		agents = {PEDLER,PRISM},
 		dialogue = {
@@ -177,7 +182,7 @@ local banter =
 	},
 	
 -- with DLC agents
-
+--by Caischcer--
 	PEDLER_DRAKO_BEACHES_01 = {
 		agents = {PEDLER,DRACO},
 		dialogue = {
@@ -187,7 +192,7 @@ local banter =
 			{DRACO,"Obviously not from me." },
 		},	
 	},
-
+--by Caischcer--
 	PEDLER_RUSH_BEACHES_01 = {
 		agents = {PEDLER,RUSH},
 		dialogue = {
@@ -197,7 +202,7 @@ local banter =
 			{RUSH,"Whatever you say, tin man." },
 		},
 	},
-	
+--by Caischcer--	
 	PEDLER_OLIVIA_BEACHES_01 = {
 		agents = {PEDLER,OLIVIA},
 		dialogue = {
@@ -207,7 +212,7 @@ local banter =
 			{OLIVIA,"Avoid direct combat when possible. That's an order." },
 		},			
 	},
-
+--by Caischcer--
 	PEDLER_DEREK_BEACHES_01 = {
 		agents = {PEDLER,DEREK},
 		dialogue = {
@@ -217,7 +222,7 @@ local banter =
 			{DEREK,"I can supply you under the radar, you know." },
 		},
 	},
-
+--by Caischcer--
 -- doubles previous 2
 	PEDLER_CENTRAL_BEACHES_01 = {
 		agents = {PEDLER,CENTRAL},
@@ -228,7 +233,7 @@ local banter =
 			{CENTRAL,"Order is to avoid direct combat when possible. Repeat." },
 		},			
 	},
-
+--by Caischcer--
 	PEDLER_MONSTER_BEACHES_01 = {
 		agents = {PEDLER,MONSTER},
 		dialogue = {
@@ -238,7 +243,7 @@ local banter =
 			{MONSTER,"I can supply you under the radar, you know." },
 		},
 	},
-
+--by Caischcer--
 	PEDLER_MIST_BEACHES_01 = {
 		agents = {PEDLER,MIST},
 		dialogue = {
@@ -250,7 +255,7 @@ local banter =
 	},
 	
 -- Mist:
-
+--by Caischcer--
 	-- Mist + Internationale
 	MIST_INT_01 = {
 		agents = {MIST, INTERNATIONALE},
@@ -263,7 +268,7 @@ local banter =
 	},	
 
 	-- Mist + Decker
-
+--by Caischcer--
 	MIST_DECKER_01 = {
 		agents = {MIST, DECKER},
 		dialogue = {				
@@ -275,7 +280,7 @@ local banter =
 	},
 
 	-- Mist + Pedler
-
+--by Caischcer--
 	MIST_PEDLER_01 = {
 		agents = {MIST, PEDLER},
 		dialogue = {
@@ -287,7 +292,7 @@ local banter =
 	},
 
 	-- Mist + Shalem
-
+--by Caischcer--
 	MIST_SHALEM_01 = {
 		agents = {MIST, SHALEM},
 		dialogue = {
@@ -299,7 +304,7 @@ local banter =
 	},
 
 	-- Mist + M0nster
-
+--by Caischcer--
 	MIST_MONSTER_01 = {
 		agents = {MIST, MONSTER},
 		dialogue = {				
@@ -312,7 +317,7 @@ local banter =
 
 
 	-- Mist + Banks
-		
+--by Caischcer--		
 	MIST_BANKS_01 = {
 		agents = {MIST, BANKS},
 		dialogue = {
@@ -324,7 +329,7 @@ local banter =
 	},
 
 	-- Mist + Derek	
-
+--by Caischcer--
 	MIST_DEREK_01 = {
 		agents = {MIST, DEREK},
 		dialogue = {				
@@ -337,7 +342,7 @@ local banter =
 	
 	
 	-- mod + vanilla agent banter
-	-- by Linenpixel 
+	--by Linenpixel--
 	
 	n_umi_xu_01 = {
 		agents = {XU, N_UMI},
@@ -349,7 +354,7 @@ local banter =
 			{N_UMI, "Yes, but the integrity of the mission doesn't."},
 		},
 	},
-	
+--by Linenpixel--	
 	n_umi_xu_02 = {
 		agents = {XU, N_UMI},
 		dialogue = {
@@ -360,7 +365,7 @@ local banter =
 			{XU, "Don't be ridiculous! My explosions are not random. They are precisely timed."},
 		},
 	},
-	
+--by Linenpixel--	
 	n_umi_xu_03 = {
 		agents = {XU, N_UMI},
 		dialogue = {
@@ -369,7 +374,7 @@ local banter =
 			{N_UMI, "...I see."},
 		},
 	},
-	
+--by Linenpixel--	
 	mist_xu_01 = {
 		agents = {XU, MIST},
 		dialogue = {
@@ -379,7 +384,7 @@ local banter =
 			{MIST, "Interesting. You actually meant that."},
 		},
 	},
-	
+--by Linenpixel--	
 	mist_nika_01 = {
 		agents = {MIST, NIKA},
 		dialogue = {
@@ -388,7 +393,7 @@ local banter =
 			{NIKA, "Yes."},
 		},
 	},
-	
+--by Linenpixel--	
 	mist_banks_01 = {
 		agents = {MIST, BANKS},
 		dialogue = {
@@ -399,7 +404,7 @@ local banter =
 			{BANKS, "Maybe not, but it's really confusing. You might get lost."},
 		},
 	},
-	
+--by Linenpixel--	
 	mist_banks_02 = {
 		agents = {MIST, BANKS},
 		dialogue = {
@@ -409,7 +414,7 @@ local banter =
 			{BANKS, "It seemed like a good idea at the time, all right?"},
 		},
 	},
-	
+--by Linenpixel--	
 	mist_internationale_01 = {
 		agents = {MIST, INTERNATIONALE},
 		dialogue = {
@@ -420,7 +425,7 @@ local banter =
 			{INTERNATIONALE, "Why is everyone so afraid of change?"},
 		},
 	},
-	
+--by Linenpixel--
 	mist_decker_01 = {
 		agents = {MIST, DECKER},
 		dialogue = {
@@ -430,7 +435,7 @@ local banter =
 		},
 	},
 	
-	
+--by Linenpixel--
 	ghuff_decker_01 = {
 		agents = {GHUFF, DECKER},
 		dialogue = {
@@ -439,7 +444,7 @@ local banter =
 			{GHUFF, "I mean, I wouldn't be caught dead in it myself, but I appreciate that you commit to it."},
 		},
 	},
-		
+--by Linenpixel--		
 	ghuff_prism_01 = {
 		agents = {GHUFF, PRISM},
 		dialogue = {
@@ -450,7 +455,7 @@ local banter =
 			{GHUFF, "Oh, right, I getcha."},
 		},
 	},
-		
+--by Linenpixel--		
 	ghuff_xu_01 = {
 		agents = {GHUFF, XU},
 		dialogue = {
@@ -459,7 +464,7 @@ local banter =
 			{GHUFF, "Yes, and I've never let any of them get the drop on me."},
 		},
 	},
-		
+--by Linenpixel--		
 	ghuff_monster_01 = {
 		agents = {GHUFF, MONSTER},
 		dialogue = {
@@ -467,7 +472,7 @@ local banter =
 			{GHUFF, "''Toys.'' You think this is a game. Typical."},
 		},
 	},
-	
+--by Linenpixel--	
 	ghuff_banks_01 = {
 		agents = {GHUFF, BANKS},
 		dialogue = {
@@ -477,7 +482,7 @@ local banter =
 			{BANKS, "Talk about it, sure. Remembering all of it is another matter."},
 		},
 	},
-	
+--by Linenpixel--	
 	ghuff_shale_01 = {
 		agents = {GHUFF, SHALEM},
 		dialogue = {
@@ -485,7 +490,7 @@ local banter =
 			{SHALEM, "I couldn't agree more."},
 		},
 	},
-		
+--by Linenpixel--		
 	n_umi_sharp_01 = {
 		agents = {N_UMI, SHARP},
 		dialogue = {
@@ -493,7 +498,7 @@ local banter =
 			{N_UMI, "I highly doubt that, but the last thing I want to do is go poking around your insides."},
 		},
 	},
-		
+--by Linenpixel--		
 	n_umi_prism_01 = {
 		agents = {N_UMI, PRISM},
 		dialogue = {
@@ -503,7 +508,7 @@ local banter =
 			{N_UMI, "True."},
 		},
 	},
-		
+--by Linenpixel--		
 	n_umi_nika_01 = {
 		agents = {N_UMI, NIKA},
 		dialogue = {
@@ -512,6 +517,7 @@ local banter =
 			{NIKA, "Yes. I make that happen."},
 		},
 	},
+--by Linenpixel--	
 	n_umi_shalem_01 = {
 		agents = {N_UMI, SHALEM},
 		dialogue = {
@@ -521,7 +527,185 @@ local banter =
 		},
 	},
 		
-		
+--by Linenpixel--
+--pedler nika
+{
+	agents = {NIKA, PEDLER},
+	dialogue = {
+		{PEDLER, "*I have no bones that you could break.*"},
+		{NIKA, "There is a way to break everything."},
+	},},
+	
+--by Linenpixel--
+--shalem ghuff
+{
+	agents = {SHALEM, GHUFF},
+	dialogue = {
+		{GHUFF, "'Shalem 11'?"},
+		{SHALEM, "Yes?"},
+		{GHUFF, "That's your name?"},
+		{SHALEM, "Yes."},
+		{GHUFF, "Fair enough."},
+	},},
+
+--by Linenpixel--
+-- ghuff decker
+{
+		agents = {GHUFF, DECKER},
+		dialogue = {
+			{DECKER, "You'd better not get it into your head to start investigating me."},
+			{GHUFF, "Are you paying me?"},
+			{DECKER, "What? No."},
+			{GHUFF, "Then I won't investigate you."},
+		},},
+
+--by Linenpixel--
+--ghuff decker
+{
+	agents = {GHUFF, DECKER},
+	dialogue = {
+		{DECKER, "You know, I considered becoming a private investigator at one point in my life."},
+		{GHUFF, "Mm-hmm."},
+		{DECKER, "Aren't you going to ask me why I didn't?"},
+		{GHUFF, "I think I already know the answer."},
+	},},
+	
+	
+--by Hekateras--
+	pedler_xu_sharp_01 = {
+		agents = {PEDLER, XU, SHARP},
+		dialogue = {
+			{PEDLER, "*I've heard about your history in the sciences. What was your research in, if I may be so bold?*"},
+			{XU, "I doubt we have the time, but I will be happy to discuss it with you later."},
+			{SHARP, "Fantastic. Now there's two of you."},
+			{XU, "Yes, I was just thinking the same thing..."},
+		},
+	},
+	
+-- Sombra banter from Talon Recruitment (Overwatch agents mod)
+--by WMGreywind-- --edited by Hekateras--
+
+--Sombra Banter
+
+DECKER_01 = {
+        agents = {DECKER, SOMBRA},
+        dialogue = {
+            {SOMBRA,"Hey, old man, you look like you're ready to fall apart."},
+            {DECKER,"Who you calling old, you whippersnapper?"},
+            {SOMBRA,"Heh, looks like I stand corrected."},
+        },                
+    },
+
+--by WMGreywind--	
+DECKER_02 = {
+        agents = {DECKER, SOMBRA},
+        dialogue = {
+            {DECKER,"You think you got enough bells and whistles on that gun of yours, dame?"},
+            {SOMBRA,"Hey, at least I get free wi-fi from it."},
+            {DECKER,"Hope no one's gonna be able to track that down."},
+        },                
+    },
+
+--by WMGreywind--
+DECKER_03 = {
+        agents = {DECKER, SOMBRA},
+        dialogue = {
+            {SOMBRA,"You know, you remind me of one of my old co-workers, Decker."},
+            {DECKER,"Oh? Did he share my sense of style?"},
+            {SOMBRA,"No, but he was always so grumpy."},
+			{DECKER,"Everyone's a critic..."},
+        },                
+    },
+
+	--by WMGreywind--
+INTERNATIONALE_01 = {
+        agents = {INTERNATIONALE, SOMBRA},
+        dialogue = {
+            {INTERNATIONALE,"Sombra, it's a pleasure to be working with a fellow Anti-Corporatist."},
+            {SOMBRA,"I didn't know I had a fan here in Invisible."},
+            {INTERNATIONALE,"Your work in exposing the corruption of LumeriCo to the public is known throughout the resistance."},
+			{SOMBRA,"Ha, what can I say? I had a lot of help in that."},
+        },                
+    },
+--by WMGreywind--
+INTERNATIONALE_02 = {
+        agents = {INTERNATIONALE, SOMBRA},
+        dialogue = {
+            {INTERNATIONALE,"You should join me in helping to usher in the global revolution. With your skills, the resistance would be unstoppable."},
+            {SOMBRA,"Thanks for the offer, but I'm more for looking out for myself."},
+            {INTERNATIONALE,"That's unfortunate to hear. If you ever want a cause greater than yourself, I'll be waiting."},
+        },                
+    },
+--by WMGreywind--
+INTERNATIONALE_03 = {
+        agents = {INTERNATIONALE, SOMBRA},
+        dialogue = {
+            {SOMBRA,"I've read your file, Maria. Quite the hacker, are you?"},
+            {INTERNATIONALE,"I'm not one to brag, but I do believe my skills are second to none."},
+            {SOMBRA,"Well, maybe not second to none..."},
+        },                
+    },
+--by WMGreywind--	
+NIKA_01 = {
+        agents = {NIKA, SOMBRA},
+        dialogue = {
+            {NIKA,"..."},
+		    {SOMBRA,"Hey, you mind telling me why you're staring at me?"},
+            {NIKA,"... I don't trust you."},
+            {SOMBRA,"Why don't you tell me something I don't know?"},
+        },                
+    },
+--by WMGreywind--
+NIKA_02 = {
+        agents = {NIKA, SOMBRA},
+        dialogue = {
+            {NIKA,"entral put a lot of trust in you when she let you join. You had better not disappoint her."},
+		    {SOMBRA,"Come on now, why don't you lighten up a little? Is that any way to talk to your co-worker?"},
+            {NIKA,"If you do anything to betray the agency, I will break you."},
+            {SOMBRA,"Are all of you bodyguarding types this uptight?"},
+        },                
+    },
+--by WMGreywind--	
+XU_01 = {
+        agents = {XU, SOMBRA},
+        dialogue = {
+            {XU,"Are you ready for another bout of exploring unprotected corporate files?"},
+		    {SOMBRA,"You always know what to say to cheer me up, Tony."},
+            {XU,"Indeed. It's rare to find a kindred spirit in unsanctioned exploratory hacking."},
+            {SOMBRA,"And to think that Central considers these little data trips a liability..."},
+        },                
+    },
+--by WMGreywind--	
+MONSTER_01 = {
+        agents = {MONSTER, SOMBRA},
+        dialogue = {
+            {MONSTER,"You know, you're the last person I expected to get roped in to all this Invisible business."},
+		    {SOMBRA,"Hey, sometimes you just got to work with what you're given."},
+            {MONSTER,"How did she manage to recruit you? I imagine you didn't undersell yourself."},
+            {SOMBRA,"Let's just say she aligns a lot better for me than my previous employers."},
+        },                
+    },
+--by WMGreywind--	
+MONSTER_02 = {
+        agents = {MONSTER, SOMBRA},
+        dialogue = {
+            {MONSTER,"I've heard of you. I was under the impression you were working with Talon."},
+		    {SOMBRA,"Had a bit of a change of employers. You know, basic stuff."},
+            {MONSTER,"I was starting to wonder what happened to my preferred source of intel when you went dark for a while."},
+            {SOMBRA,"What can I say? Central keeps me busy."},
+        },                
+    },
+--by WMGreywind--	
+MONSTER_03 = {
+        agents = {MONSTER, SOMBRA},
+        dialogue = {
+            {SOMBRA,"Hey Monst3r, I got you the latest data packet you requested."},
+		    {MONSTER,"Oh did you now? I knew I could count on you to sniff out what I was looking for."},
+            {SOMBRA,"So the usual rate?"},
+            {MONSTER,"Of course. Let us deal with the mission first, and I shall wire you the credits when we're done."},
+        },                
+    },
+	
  	
 }
 
