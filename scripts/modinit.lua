@@ -11,7 +11,7 @@ local function init( modApi )
     local dataPath = modApi:getDataPath()
     local scriptPath = modApi:getScriptPath()
 	
-	-- edited mission_util that support variables for message time, smaller delay before start and to have non repeating dialogues
+	-- edited mission_util that supports variables for message time, smaller delay before start and to have non repeating dialogues
 	include( scriptPath .. "/mission_util" )
 
 
