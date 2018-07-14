@@ -570,6 +570,100 @@ local banter =
 		{GHUFF, "I think I already know the answer."},
 	},},
 	
+--by Linenpixel--
+--edited by Hekateras--
+MIST_INTERNATIONALE_02 = {
+	agents = {MIST, INTERNATIONALE},
+    dialogue = {
+	{MIST, "You have something of a reputation."},
+	{INTERNATIONALE, "I can imagine."},
+	{MIST, "But so do a lot of people. Come to think of it, half the agency has warned me about the other half."},
+	{INTERNATIONALE, "Unfortunately, that sounds about right."},
+},},
+
+--by Linenpixel--	
+MIST_DRACO_01 = {
+agents = {MIST, DRACO},
+dialogue = {
+    {MIST, "Are you a cyborg? You look a bit like some models I've known."},
+    {DRACO, "My existence is both a curse and an enigma, shrouded in dusk and shadow."},
+    {MIST, "So... a custom build, then?"},
+},},
+
+--by Linenpixel--
+MIST_DRACO_02 = {
+agents = {MIST, DRACO},
+dialogue = {
+    {DRACO, "I like the name 'Mist'. It evokes tenebrosity, murkiness, gloaming, brume..."},
+    {MIST, "Do you have some kind of thesaurus augment that I'm not aware of?"},
+    {DRACO, "No... but I am now contemplating the idea."},
+},},
+
+--by Linenpixel--
+MIST_DRACO_03 = {
+agents = {MIST, DRACO},
+dialogue = {
+    {DRACO, "I too can go unseen when I wish."},
+    {MIST, "From what I've heard, that's not what you're most known for at the agency."},
+    {DRACO, "I have many talents. Pray you do not become acquainted with all of them."},
+},},
+
+--by Linenpixel--
+MIST_DRACO_04 = {
+agents = {MIST, DRACO},
+dialogue = {
+    {MIST, "You know, I don't totally dislike working with you."},
+    {DRACO, "Oh? I admit, my curiosity is piqued."},
+    {MIST, "When we're together, nobody thinks *I'm* creepy."},
+},},
+
+--by Linenpixel--
+MIST_PRISM_01 = {
+agents = {MIST, PRISM},
+dialogue = {
+    {PRISM, "If you ever want some help getting back at Plastech, just let me know."},
+    {MIST, "What? No, that never occurred to me. I guess revenge is just not my style."},
+    {PRISM, "Wow, that is... not how I think at all."},
+},},
+
+--by Linenpixel--
+MIST_PRISM_02 = {
+agents = {MIST, PRISM},
+dialogue = {
+    {PRISM, "Perception is everything."},
+    {MIST, "Seeing is believing."},
+    {PRISM, "Enough cliches. Let's get to work."},
+},},
+
+--by Linenpixel--
+MIST_XU_02 = {
+agents = {MIST, XU},
+dialogue = {
+    {MIST, "You're thinking about something technical, aren't you?"},
+    {XU, "Is this really the time to be using your abilities?"},
+    {MIST, "I wasn't. You were staring into space with a thoughtful expression."},
+    {XU, "Oh. Right. Mission. Time to focus."},
+},},
+
+--by Linenpixel--
+N_UMI_DRACO_01 = {
+ agents = {N_UMI, DRACO},
+    dialogue = {
+    {DRACO, "Drones are your passion, but they are of no interest to me."},
+    {N_UMI, "I wouldn't exactly say..."},
+    {DRACO, "There is no life in drones, no veins, no sweet essence that can transcend mortal barriers and, through the alchemy of night, become mine."},
+    {N_UMI, "I didn't ask for this information."},
+},},
+
+--by Linenpixel--
+N_UMI_INTERNATIONALE_01 = {
+ agents = {N_UMI, INTERNATIONALE},
+    dialogue = {
+    {INTERNATIONALE, "Welcome to the team. Any tool that we can use when we eventually overthrow the corps is welcome."},
+    {N_UMI, "My drones are tools. I'm a person."},
+    {INTERNATIONALE, "Sorry. I got carried away. I try to preserve human life, but the revolution will come with a cost."},
+    {N_UMI, "Seems I learn more about the people I work with every day."},
+},},
 	
 --by Hekateras--
 	pedler_xu_sharp_01 = {
