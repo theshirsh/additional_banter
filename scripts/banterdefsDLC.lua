@@ -616,7 +616,7 @@ olivia_draco_01 = {
 			{RUSH, "You know I won't."},
 			{DRACO, "She obviously meant me."},
 			{OLIVIA, "It was a plural 'you'. Emphasis on 'was'. The literary-minded among you may note that it's the past tense."},
-			{RUSH, "Okay, *now* she means you."},
+			{RUSH, "Okay, NOW she means you."},
 		},},
 		
 
@@ -675,8 +675,18 @@ olivia_draco_01 = {
 		dialogue = {
 			{XU, "So you joined up at the beginning of the war, yes?"},
 			{RUSH, "It was either fight back or turn into mincemeat for the Corps. But you never had to make that choice, did you?"},
-			{XU, "I suppose I didn't. Sankaku wasn't particularly interested in pulling us to the front lines when we were more useful doing research."},
-			{RUSH, "And how did that turn out for you?"},
+			{XU, "I suppose I didn't. Sankaku wasn't particularly interested in pulling us to the front lines. We were more useful doing research."},
+			{RUSH, "And how did that work out for you?"},
+		},},
+		
+--by Hekateras--
+	draco_prism_x = {
+		agents = {DRACO, PRISM},
+		dialogue = {
+			{PRISM, "I read your obituary. Bit overdramatic, don't you think?"},
+			{DRACO, "This coming from the woman who 'died' from a fifty-story jump."},
+			{PRISM, "You read my obituary? I'm flattered."},
+			{DRACO, "Worse. I saw it on the news."},
 		},},
 	
 	-- Rush + non DLC agent banters
@@ -957,6 +967,17 @@ dialogue = {
     {PRISM, "See, that's how you handle him. He's got one script and it's fairly easy to follow."},
 },
 },
+
+--by Linenpixel--
+RUSH_INTERNATIONALE_02 = {
+ agents = {RUSH, INTERNATIONALE},
+    dialogue = {
+    {RUSH, "So, do you trust Central?"},
+    {INTERNATIONALE, "I'm not sure why you're asking me, but I trust her to do what she says she'll do."},
+    {RUSH, "I'm not going to get more of an answer than that, am I?"},
+    {INTERNATIONALE, "No."},
+},},
+
 
 --by Hekateras--
 draco_derek_x = {
