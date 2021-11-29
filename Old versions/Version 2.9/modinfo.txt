@@ -1,0 +1,6 @@
+name = Additional Banter
+
+icon = gui/icons/mod_dlc_banter_icon.png
+
+author = Shirsh, Hekateras, Linenpixel, Datapuncher and others
+version = 2.9
